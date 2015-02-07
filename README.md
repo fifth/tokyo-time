@@ -8,9 +8,9 @@ ask "tokyo-time.php" for time by GET method, with the para "timezone" you can ch
 
 example: [path]/tokyo-time.php?timezone=Asia/Tokyo
 
-return will be a string formatted by PHP function getdate()
+return will be a string formatted by PHP function [getdate()](http://php.net/manual/en/function.getdate.php)
 
-REMEMBER to use the correct format of the timezone name
+REMEMBER to use [the correct format of the timezone name](http://php.net/manual/en/timezones.php)
 
 default timezone is "Asia/Tokyo"
 
